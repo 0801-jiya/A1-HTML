@@ -1,0 +1,25 @@
+﻿body {
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 300px;
+        background-color: #f0a1df;
+        font-size: 2rem;
+        font-family: sans-serif;
+        color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    menu {
+        display: flex;
+        gap: 24px;
+        outline-style: none;
+        padding: 0;
+    }
+}
